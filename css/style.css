@@ -1,0 +1,240 @@
+*{margin: 0;padding: 0;box-sizing: border-box; scroll-behavior: smooth;}
+.container{max-width: 1140px; margin: 0 auto;}
+img{width: 100%;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+
+.title{
+    text-align: center;
+    margin: 0 auto;
+    width: 58%;
+    padding: 50px 0;
+}
+h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.border{
+    padding: 3px;
+    background-color: #d0131c;
+    width: 15%;
+    margin: 0 auto;
+}
+.title p{
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+.card-img{
+    grid-column: 2 span;
+    grid-row: 2 span;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #292d33;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+.big-i i{
+    font-size: 30px;
+    color: #999999;
+    border: 3px solid #d9d9d9;
+    padding: 20px;
+    border-radius: 50%;
+}
+.card h2{
+    color:  #999999;
+    font-size: 22px;
+    padding: 15px 0;
+}
+.card p{
+    color: white;
+    font-size: 18px;
+}
+.one i{
+    font-size: 24px;
+    color: white;
+    letter-spacing: 15px;
+    padding-top: 20px;
+}
+.card a{
+    color: white;
+    text-decoration: underline;
+    display: inline-block;
+}
+.card a:hover{
+    color: #e90e19;
+}
+.freepik{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+}
+.freepik a{
+    display: inline-block;
+    color: #036d4c;
+    font-weight: 900;
+}
+@media (769px <= width <= 1024px){
+    .cards{
+        padding: 0 30px;
+    }
+    .card{
+        padding: 10px;
+    }
+    .card-img{
+        height: 100%;
+    }
+}
+@media (481px <= width <= 768px){
+  .cards{
+    padding: 20px;
+  }
+  .card-img{
+    grid-column: 1/5;
+  }
+  .one{
+    grid-column: 1/3;
+  }
+  .two{
+    grid-column: 3/5;
+  }
+  .three{
+    grid-column: 1/3;
+  }
+  .four{
+    grid-column: 3/5;
+  }
+  .one i{
+    letter-spacing: 10px;  
+}
+.big-i i{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.card h2{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.card p{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.one i{
+    font-size: 20px;
+    letter-spacing: 15px;
+    padding-top: 10px;
+}
+h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.title{
+    width: 90%;
+    padding: 10px 0;
+}
+.border{
+    padding: 3px;
+    background-color: #d0131c;
+    width: 35%;
+    margin: 0 auto;
+}
+}
+@media (320px <= width <= 480px){
+    .cards{
+      padding: 10px;
+    }
+    .card-img{
+      grid-column: 1/5;
+    }
+    .one{
+      grid-column: 1/5;
+    }
+    .two{
+      grid-column: 1/5;
+    }
+    .three{
+      grid-column: 1/5;
+    }
+    .four{
+      grid-column: 1/5;
+    }
+    .one i{
+      letter-spacing: 10px;
+      padding-bottom: 10px;
+      
+    }
+    .big-i i{
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    .card h2{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .card p{
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .one i{
+        font-size: 20px;
+        letter-spacing: 15px;
+        padding-top: 10px;
+    }
+    h1{
+        font-size: 25px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    .border{
+        padding: 3px;
+        background-color: #d0131c;
+        width: 35%;
+        margin: 0 auto;
+    }
+    .title p{
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 5px;
+    }
+    .title{
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+        padding: 10px 0;
+    }
+}
+
+
+footer{
+    background-color: #333333;
+    padding: 30px 0;
+}
+.foot-box{
+    text-align: center;
+    color: white;
+}
+.foot-box a{
+    display: inline-block;
+    color: #a9f8df;
+    text-decoration: underline;
+}
+.foot-box a:hover{
+    color: #999999;
+    text-decoration: none;
+}
